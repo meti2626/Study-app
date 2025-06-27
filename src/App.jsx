@@ -47,3 +47,16 @@ const NavMenu = () => {
 };
 
 export default NavMenu;
+import React from "react";
+import NavMenu from "./components/Menu"; // adjust the path as needed
+
+function App() {
+  return (
+    <div>
+      <NavMenu />
+      <section className="p-8">Your content goes here</section>
+    </div>
+  );
+}
+
+export default App;
